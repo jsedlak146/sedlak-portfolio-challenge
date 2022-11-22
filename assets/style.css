@@ -51,10 +51,10 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 600px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    margin-bottom: 10px;
+    background-image: url(https://images.photowall.com/products/60742/palm-trees-on-white-beach.jpg?h=699&q=85);
     background-size: cover;
     background-position: center;
 }
@@ -64,13 +64,13 @@ p {
     margin-right: 25px;
 }
 
-.float-right {
+.flex-item {
     float: right;
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
+main {
+    width: 100%;
     display: inline-block;
     margin-left: 20px;
 }
@@ -86,7 +86,6 @@ p {
     background-color: #2589bd;
 }
 
-/* consolidated .benefit CSS */
 
 .benefit {
     margin-bottom: 32px;
@@ -98,7 +97,6 @@ p {
     text-align: center;
 }
 
-/* consolidated .benefit CSS ^ */
 
 .benefit img {
     display: block;
@@ -106,8 +104,6 @@ p {
     max-width: 150px;
 }
 
-/* brought all benefit-img into one CSS */
-/*consolidated elements and classes from search class */
 
 .search {
     margin-bottom: 20px;
@@ -137,3 +133,25 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+#my-portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+
+
+}
+.portfolio {
+          
+            background-image: url ("../images/portfolio-placeholder.jpeg");
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+
+  
